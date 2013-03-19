@@ -18,7 +18,7 @@ Simulate mouse approaching event, fired everytime the mouse cursor gets close en
         // do something
     });
     
-    $('#foo').on('approaching', {threshhold: [30, 100, 50, 10]}), function(ev) {
+    $('#foo').on('approaching', {threshhold: [30, 100, 50, 10]}, function(ev) {
         // do something
     });
     
